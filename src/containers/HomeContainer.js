@@ -3,7 +3,7 @@ import Home from '../components/Home'
 import { addToCart } from '../services/Actions/actions'
 
 const mapStateToProps = state =>({
-
+    cartData: state
 })
 
 const mapDispatchToProps = dispatch=>({
