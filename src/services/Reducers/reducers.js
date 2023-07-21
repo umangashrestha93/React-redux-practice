@@ -1,11 +1,18 @@
-import React from 'react'
+import { ADD_TO_CART } from "../constant";
 
-function reducers() {
-  return (
-    <div>
-        <h1>reducer</h1>
-    </div>
-  )
+const initialState = {
+    cartData:[]
 }
+export default function cartItem(state= initialState, action){
+    switch(action.type){
+        case ADD_TO_CART:
+            return{
+                ...state,
+                cartData: action.data
+            }
+            break;
+        default:
+            return state
+    }
 
-export default reducers
+}
