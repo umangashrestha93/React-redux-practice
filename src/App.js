@@ -1,11 +1,11 @@
 import React from 'react'
-import User from './components/User'
+import Home from './components/Home'
+import '../src/App.css'
 
 function App() {
   return (
     <div>
-      <h1>App Component</h1>
-      <User data={{name: "Umanga Shrestha", age: 22, profession: "student"}}/>
+      <Home />
     </div>
   )
 }
