@@ -68,6 +68,14 @@
   border-radius: 50%;
 
 }
+.removeCart{
+  background-color: aquamarine;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
 
 @keyframes App-logo-spin {
   from {

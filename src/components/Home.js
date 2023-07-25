@@ -25,6 +25,9 @@ function Home(props) {
         <div className='btn-wrapper item'>
             <button onClick={()=>props.addToCartHandler({price: 130000, name: 'Iphone 14'})}>Add to cart</button>
         </div>
+        <div className='remove-btn'>
+        <button className="removeCart" onClick={()=>props.removeToCartHandler()}>Remove from cart</button>
+        </div>
       </div>
     </div>
   )
