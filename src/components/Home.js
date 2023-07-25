@@ -2,10 +2,11 @@ import React from 'react'
 
 
 function Home(props) {
-    console.warn("Home", props)
+    console.warn("Home", props.data)
   return (
     <div>
         <div className='cart-container'>
+          <span className='cart-count'>{props.data.length}</span>
             <img src='https://th.bing.com/th/id/R.6dd78e14d5d811845adc15e864c6da64?rik=XXUPbV4dz%2bxIHw&pid=ImgRaw&r=0' />
         </div>
       <h1>Home</h1>
